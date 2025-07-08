@@ -1,0 +1,96 @@
+{
+  "name": "GreenTrace AI - Next-Gen Sustainability Tracker",
+  "short_name": "GreenTrace",
+  "description": "AI-powered sustainability tracking with AR challenges, voice commands, and real-time environmental impact visualization",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1F2937",
+  "theme_color": "#10B981",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["lifestyle", "utilities", "education"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMTBCOTgxIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwNkI2RDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4QjVDRjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgcng9IjQ4IiBmaWxsPSJ1cmwoI2EpIi8+PHBhdGggZD0iTTk2IDQ4QzEyMC4zIDQ4IDE0MCA2Ny43IDE0MCA5MkMxNDAgMTE2LjMgMTIwLjMgMTM2IDk2IDEzNkM3MS43IDEzNiA1MiAxMTYuMyA1MiA5MkM1MiA2Ny43IDcxLjcgNDggOTYgNDhaIiBmaWxsPSJ3aGl0ZSIgZmlsbC1vcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNOTYgNjRDMTExLjUgNjQgMTI0IDc2LjUgMTI0IDkyQzEyNCAxMDcuNSAxMTEuNSAxMjAgOTYgMTIwQzgwLjUgMTIwIDY4IDEwNy41IDY4IDkyQzY4IDc2LjUgODAuNSA2NCA5NiA2NFoiIGZpbGw9IndoaXRlIi8+PHBhdGggZD0iTTk2IDgwTDEwNCA5Nkw5NiAxMTJMODggOTZMOTYgODBaIiBmaWxsPSIjMTBCOTgxIi8+PHBhdGggZD0iTTcyIDEzNkwxMjAgMTM2TDEyOCAxNTJMNjQgMTUyTDcyIDEzNloiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuOCIvPjwvc3ZnPg==",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMTBCOTgxIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwNkI2RDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4QjVDRjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjEyOCIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Ik0yNTYgMTI4QzMyMi42IDEyOCAzNzYgMTgxLjQgMzc2IDI0OEMzNzYgMzE0LjYgMzIyLjYgMzY4IDI1NiAzNjhDMTg5LjQgMzY4IDEzNiAzMTQuNiAxMzYgMjQ4QzEzNiAxODEuNCAxODkuNCAxMjggMjU2IDEyOFoiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yNTYgMTc2QzI5NCAxNzYgMzI4IDIxMCAzMjggMjQ4QzMyOCAyODYgMjk0IDMyMCAyNTYgMzIwQzIxOCAzMjAgMTg0IDI4NiAxODQgMjQ4QzE4NCAyMTAgMjE4IDE3NiAyNTYgMTc2WiIgZmlsbD0id2hpdGUiLz48cGF0aCBkPSJNMjU2IDIwOEwyNzIgMjQ4TDI1NiAyODhMMjQwIDI0OEwyNTYgMjA4WiIgZmlsbD0iIzEwQjk4MSIvPjxwYXRoIGQ9Ik0xOTIgMzY4TDMyMCAzNjhMMzM2IDQwMEwxNzYgNDAwTDE5MiAzNjhaIiBmaWxsPSJ3aGl0ZSIgZmlsbC1vcGFjaXR5PSIwLjgiLz48L3N2Zz4=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Track Activity",
+      "short_name": "Track",
+      "description": "Quickly log a sustainable activity",
+      "url": "/?action=track",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSI0OCIgZmlsbD0iIzEwQjk4MSIvPjxwYXRoIGQ9Ik0zMiAzMkg2NEw2MCA2NEgzNkwzMiAzMloiIGZpbGw9IndoaXRlIi8+PC9zdmc+",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "AR Scanner",
+      "short_name": "Scan",
+      "description": "Scan products for sustainability score",
+      "url": "/?action=scan",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSI0OCIgZmlsbD0iIzA2QjZENCIvPjxyZWN0IHg9IjI0IiB5PSIyNCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Challenges",
+      "short_name": "Challenges",
+      "description": "View and join sustainability challenges",
+      "url": "/?action=challenges",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSI0OCIgY3k9IjQ4IiByPSI0OCIgZmlsbD0iIzhCNUNGNiIvPjxwYXRoIGQ9Ik00OCAyNEw1NiA0MEg0MEw0OCAyNFoiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iNDAiIHk9IjQwIiB3aWR0aD0iMTYiIGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIi8+PC9zdmc+",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "image",
+          "accept": ["image/*"]
+        }
+      ]
+    }
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+greentrace",
+      "url": "/?action=%s"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "handle_links": "preferred",
+  "capture_links": "new-client"
+}
